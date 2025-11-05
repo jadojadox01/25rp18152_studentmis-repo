@@ -1,0 +1,3 @@
+# Ignore all .docx files, including the lock file
+*.docx
+*.docx#
