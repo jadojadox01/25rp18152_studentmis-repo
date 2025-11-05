@@ -1,0 +1,9 @@
+services:
+  php_service_25rp18152:
+    build: .
+    container_name: 25rp18152-php
+    ports:
+      - "8087:80"
+    volumes:
+      - .:/var/www/html
+    restart: always
